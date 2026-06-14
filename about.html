@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | EchoBoard</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #110e4e;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .about-section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .about-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #110e4e;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    .about-section p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    footer {
+      background-color: #110e4e;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 4rem;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-50%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About EchoBoard</h1>
+  </header>
+
+  <section class="about-section">
+    <h2>Our Mission</h2>
+    <p>EchoBoard is built to amplify every employee’s voice. In a world where workplace feedback often goes unheard, we aim to provide a safe, transparent, and effective platform to share concerns, praise, and suggestions.</p>
+
+    <h2>Why EchoBoard?</h2>
+    <p>Whether you're an employee with an idea or an admin working to improve culture, EchoBoard ensures every message counts. We are committed to improving communication, trust, and action within organizations of all sizes.</p>
+
+    <h2>Meet the Team</h2>
+    <p>We're a small group of developers, designers, and workplace advocates who believe in the power of feedback. EchoBoard is our way of bringing real change to how teams communicate.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 EchoBoard Inc.
+  </footer>
+
+</body>
+</html>
