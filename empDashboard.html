@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Dashboard | EchoBoard</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    </head>
+    <body class="dashboard-body">
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <label for="fileInput">
+                <img id="profilePhoto" src="" alt="profile Photo">
+                </label>
+                <input type="file" id="fileInput" accept="image/*"/>
+                <div id="status"></div>
+
+                <div class="info">
+                    <h2 id="profileName"></h2>
+                    <p><span id="empId"></span></p>
+                    <!-- <p><span id="joiningDate"></span></p> -->
+                    <p><span id="department"></span></p>
+                    <p><span id="email"></span></p>
+                </div>
+                <div class="logout-bar">
+                    <!-- add joining date on the profile page if needed -->
+                     <button id="feedbackbutton" class="feedback-button">Raise Feedback</button>
+                    <button id="logoutBtn" class="logout-button">Logout</button>
+                </div>
+
+                <!--  employee id -->
+            </div>
+        </div>
+        <section class="emp-feedback-contaier">
+            <!-- Feedback that employee has shared. -->
+             <div class="emp-raised-feedbacks">
+                <div class="left-sidebar">
+                    <h3>Employee Feedback</h3>
+                    <ul id="feedbackList"></ul>
+                    </ul>
+                </div>
+
+             </div>
+             </section>
+        </section>
+        <script src="empDashboard.js"></script>
+    </body>
+    </html>

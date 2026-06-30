@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workplace Support Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f6f9fc;
+      color: #333;
+    }
+
+    header {
+      background-color: #110e4e;;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .slideshow {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .slide {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .slide:hover {
+      transform: translateY(-5px);
+    }
+
+    .slide img {
+      width: 400px;
+      height: 260px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+
+    .slide-content {
+      flex: 1;
+    }
+
+    .slide-content h2 {
+      font-size: 2rem;
+      color: #110e4e;
+      margin-bottom: 10px;
+    }
+
+    .slide-content p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .contact-box {
+      background-color: #edf6f9;
+      padding: 25px;
+      border-radius: 12px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .contact-box a {
+      color: #d62828;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #110e4e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      .slide {
+        flex-direction: column;
+      }
+
+      .slide img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Workplace Support Center</h1>
+  <p>Your safety, equality, and mental wellness matter. We're here to help.</p>
+</header>
+
+<div class="slideshow">
+
+  <div class="slide">
+    <img src="images/supportteam.png" alt="Workplace support">
+    <div class="slide-content">
+      <h2>Harassment Support</h2>
+      <p>Our team is committed to providing a respectful and safe workplace for everyone. If you've experienced or witnessed harassment of any kind — verbal, physical, or discriminatory — you can report it confidentially.</p>
+      <p>We investigate every case with care and without bias. Your voice matters.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/mentalhealth.jpeg" alt="Mental Health Support">
+    <div class="slide-content">
+      <h2>Mental Health Support</h2>
+      <p>Mental health is as important as physical health. Our certified counselors are available for free, confidential consultations.</p>
+      <p>You can book sessions online or walk in during wellness hours. No issue is too small — stress, anxiety, burnout — we’re here to help.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/workplace.jpeg" alt="Equality in workplace">
+    <div class="slide-content">
+      <h2>Equality in the Workplace</h2>
+      <p>We believe in equal opportunity, fairness, and inclusion. Our company enforces policies that protect against discrimination based on gender, race, religion, orientation, or age.</p>
+      <p>Our diversity task force reviews hiring, promotion, and workplace culture regularly to ensure fairness.</p>
+    </div>
+  </div>
+
+  <div class="slide contact-box">
+    <div class="slide-content">
+      <h2>Contact Our Support Team</h2>
+      <p>📧 Email: <a href="mailto:hrsupport@company.com">hrsupport@company.com</a></p>
+      <p>☎️ Phone: +91 1800 111 222 (24/7 helpline)</p>
+      <p>📝 <a href="/anonymous-report.html">Submit an Anonymous Complaint</a></p>
+      <p>📄 <a href="/policy.html">Read Our Workplace Harassment & Equality Policy</a></p>
+      <p>📍 Support Desk Hours: Mon–Fri, 10 AM – 6 PM (Physical & Virtual)</p>
+    </div>
+  </div>
+
+</div>
+
+  <footer>
+        <p>&copy; 2025 EchoBord Inc.  • Employee Welfare & Equality Division</p>
+  </footer>
+
+</body>
+</html>

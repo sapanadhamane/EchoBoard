@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Submit Feedback | EchoBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EchoBoard</h1>
+        <p class="tagline">Your Voice Matters</p>
+    </header>
+    <main>
+        <h2>Submit Your Feedback</h2>
+        <form id="feedbackform" class="feedback-form">
+            <label for="name">Your Name(Optional): </label>
+            <input type="text" id="name"   name="name" placeholder="Leave blank to stay anonymous ">
+            
+            <!-- 
+             -->
+
+             <label for="Department">Department:</label>
+             <select id="department" name="department" required>
+                <option id="select" value="">Select</option>
+                <option value="HR">HR</option>
+                <option value="Addministration">Addministration</option>
+                <option value="InformationTechnology">IT</option>
+                <option value="Account">Account</option>
+                
+            </select>
+            <label for="Category">Category:</label>
+             <select id="category" name="category" required>
+                <option id="select" value="">Select</option>
+                <option value="Suggestion">Suggestion</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Appreciation">Appreciation</option>
+                
+            </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" required placeholder="Write your feedback here....."></textarea>
+
+            <button id="cancelBtn" type="button">Cancel</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <p id="responseMsg"></p>
+
+    <footer>
+        <p>&copy; 2025 EchoBoard Inc.</p>
+    </footer>
+
+    <script src="feedback.js"></script>
+    
+</body>
+</html>
